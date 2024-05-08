@@ -16,7 +16,6 @@ b/3 == a
 
 v1 <- c(1:5, b)
 v1*1
-
 v1 <- c(1:5, “b”)
 v1*1
 
@@ -55,4 +54,8 @@ facet_wrap(vars(group))
 
 data$value_2 <- c( data[1:1000, "value"]*2 + rnorm(group_n, mean = 0) ,
 data[1001:2000, "value"]*-.5 + rnorm(group_n, mean = 0) )
+
+# Git Exercise
+23+34
+#just testing it
 
